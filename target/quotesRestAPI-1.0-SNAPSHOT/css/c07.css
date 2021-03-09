@@ -15,7 +15,6 @@ body {
 
 h1 {
   color: #f3fbfe;
-  background-image: url(../images/kinglogo.png);
   background-repeat: no-repeat;
   background-position: center center;
   text-align: center;
@@ -77,7 +76,6 @@ li {
 
 li a {
   color: #fff;
-  background-image: url('../images/icon-link.png');
   background-position: right, center;
   background-repeat: no-repeat;
   text-decoration: none;
@@ -113,7 +111,6 @@ p {
 .complete {
   background-color: #999;
   color: #fff;
-  background-image: url("../images/icon-trash.png");
   background-position: right, center;
   background-repeat: no-repeat;
   border-top: 1px solid #666;
@@ -121,18 +118,6 @@ p {
   text-shadow: 2px 2px 1px #333;}
 
 .complete a {display:block;}
-
-.favorite {
-  background-image: url('../images/icon-heart.png');
-  background-position: right, center;
-  background-repeat: no-repeat;}
-
-em.seasonal
- {
-  background-image: url('../images/icon-calendar.png');
-  background-position: left  center;
-  background-repeat: no-repeat;
-  padding-left: 30px;}
 
 
 /* FORM STYLES */
@@ -297,7 +282,7 @@ a.show{
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
   h1{
-    background-image: url(../images/2xkinglogo.png);
+
     background-size: 72px 72px;
   }
 }

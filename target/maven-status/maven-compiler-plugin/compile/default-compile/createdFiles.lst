@@ -1,2 +1,3 @@
+org/example/quotesRestAPI/model/Quote.class
 org/example/quotesRestAPI/app/QuoteApp.class
 org/example/quotesRestAPI/rest/QuoteRestServices.class
