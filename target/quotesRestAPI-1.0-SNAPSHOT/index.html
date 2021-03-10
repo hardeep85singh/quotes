@@ -2,27 +2,44 @@
 <html>
 <head>
     <title>Example of getting data from public API</title>
-    <link rel="stylesheet" href="css/c07.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 <body>
 
-<div class="button"><button href="#" id="showQuote">Get Quote</button>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="#">Random Quotes by Ron Swanson</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+</nav>
+
+<div class="container my-3">
+    <h1>Random Quote</h1>
+    <div class="card">
+        <div class="card-body">
+            <div class="form-group">
+                <h5 class="randomQuote" id="random-quote"></h5>
+            </div>
+            <button class="btn btn-primary" id="showBtn">Show Quote</button>
+        </div>
+    </div>
+    <hr>
+    <h1>List of Quotes</h1>
+    <ol class="quote" id="listOfQuotes">
+
+    </ol>
+    <hr>
+    <div id="notes" class="row container-fluid"> </div>
 </div>
-<div>
-    <h1 id="header">Quote</h1>
-    <h2 id="quoteHeader" class="head"></h2>
-</div>
-<div>
-    <h1 id="listHeader" class="listQuotes">List of Quotes</h1>
-    <ul>
-        <li id="0" class="quote"></li>
-    </ul>
-</div>
+
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="javascript/jquery-3.5.1.js"></script>
 <script src="javascript/quote.js"></script>
 </body>
 </html>
 
-
-<!--<button id="getQuote">Get Quote</button>-->

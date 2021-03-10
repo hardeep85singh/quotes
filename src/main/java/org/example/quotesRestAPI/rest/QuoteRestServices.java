@@ -12,16 +12,6 @@ public class QuoteRestServices {
 
     private Map<String, String> quotes = new HashMap<>();
 
-//    @GET
-//    @Path("/quote")
-//    @Consumes(MediaType.APPLICATION_JSON)
-//    public String getQuote(@QueryParam("quote") String quote){
-//        String keyValue = Integer.toString(quote.hashCode());
-//        quotes.put(keyValue, quote);
-//        return quote;
-//    }
-
-
     @POST
     @Path("/randomQuote")
     @Consumes(MediaType.APPLICATION_JSON)
