@@ -3,9 +3,9 @@ Simple random quotes app created with Javascript and Java. This application demo
 
 ## Table of Contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Screenshots](#screenshots)
+
 
 ## General info
 This project shows random quote and list of quotes on the browser. JavaScript's framework, JQuery, is used for the front end of the application. Java's framework, RestEasy, is used to build the RESTfull web services and RESTfull Java application. Apache Tomcat is used to run the application on the server.
