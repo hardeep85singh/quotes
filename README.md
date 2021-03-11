@@ -32,4 +32,3 @@ Project is created with:
 * QuoteApp.java ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/QuoteApp.gif)
 * QuoteRestServices.java ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/QuoteRestServices.gif)
 
-## Setup
