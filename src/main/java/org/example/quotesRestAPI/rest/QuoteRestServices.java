@@ -1,4 +1,5 @@
 package org.example.quotesRestAPI.rest;
+
 import org.example.quotesRestAPI.model.Quote;
 
 import javax.ws.rs.*;
@@ -16,7 +17,7 @@ public class QuoteRestServices {
     @Path("/randomQuote")
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Response quote(Quote quote){
+    public Response quote(Quote quote) {
         quote.setId(Integer.toString(quote.hashCode()));
         quotes.put(quote.getId(), quote.getQuote());
         return Response.status(Response.Status.OK)
@@ -26,7 +27,7 @@ public class QuoteRestServices {
     @GET
     @Path("/listQuote")
     @Produces(MediaType.APPLICATION_JSON)
-    public Map<String, String> quoteList(){
+    public Map<String, String> quoteList() {
         return quotes;
     }
 }

@@ -9,20 +9,20 @@ import java.util.Map;
 import java.util.Set;
 
 @ApplicationPath("/rest")
-public class QuoteApp extends Application{
+public class QuoteApp extends Application {
     private Set<Object> singletons = new HashSet<>();
 
-    public QuoteApp(){
+    public QuoteApp() {
         singletons.add(new QuoteRestServices());
     }
 
     @Override
-    public Set<Object> getSingletons(){
+    public Set<Object> getSingletons() {
         return singletons;
     }
 
     @Override
-    public Set<Class<?>> getClasses(){
+    public Set<Class<?>> getClasses() {
         return super.getClasses();
     }
 

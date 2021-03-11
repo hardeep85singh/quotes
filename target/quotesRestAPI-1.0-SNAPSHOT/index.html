@@ -4,18 +4,15 @@
     <title>Example of getting data from public API</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
 </head>
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-<a class="navbar-brand" href="#">Random Quotes by Ron Swanson</a>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-</button>
+    <a class="navbar-brand" href="#">Random Quotes</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 </nav>
-
 <div class="container my-3">
     <h1>Random Quote</h1>
     <div class="card">
@@ -26,17 +23,14 @@
             <button class="btn btn-primary" id="showBtn">Show Quote</button>
         </div>
     </div>
-    <hr>
+    <hr id="list">
     <h1>List of Quotes</h1>
     <ol class="quote" id="listOfQuotes">
-
+        <li></li>
     </ol>
     <hr>
-    <div id="notes" class="row container-fluid"> </div>
+    <div id="notes" class="row container-fluid"></div>
 </div>
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="javascript/jquery-3.5.1.js"></script>
 <script src="javascript/quote.js"></script>

@@ -2,7 +2,6 @@
 $('#showBtn').on('click', function(event) {
     var getUrl = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
     $.getJSON(getUrl).done(function(data){
-
         var str = '';
         var i;
         for(i = 0; i< data.length; i++){
@@ -20,12 +19,29 @@ $('#showBtn').on('click', function(event) {
         $('h5.randomQuote').html(function(){
            return data;
         });
-          console.log(data);
-
-        $.each(data, function(key, value){
-            $('ol.quote').append('<li>' + value + '</li>');
-        });
+        console.log(data);
     });
-
+    $('li').remove();
+    var listAllUrl = "http://localhost:8080/quotesRestAPI-1.0-SNAPSHOT/rest/quote/listQuote";
+    $.getJSON(listAllUrl, function(data){
+       $.each(data, function(key, value){
+           $('ol.quote').before('<li>' + value + '</li>');
+       });
+    });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
