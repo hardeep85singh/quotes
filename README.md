@@ -8,7 +8,7 @@ Simple random quotes app created with Javascript and Java. This application demo
 * [Setup](#setup)
 
 ## General info
-This project shows random quote and list of quotes. JavaScript's framework, JQuery, is used for the front end of the application. Java's framework, RestEasy, is used to build the RESTfull web services and RESTfull Java application. Apache Tomcat server is used to run the application.
+This project shows random quote and list of quotes on the browser. JavaScript's framework, JQuery, is used for the front end of the application. Java's framework, RestEasy, is used to build the RESTfull web services and RESTfull Java application. Apache Tomcat is used to run the application on the server.
 
 The basic step wise information is mentioned below.
 * We get the random quote by calling the rest end points of public API using the GET call and is shown at the screen.
@@ -23,6 +23,7 @@ Project is created with:
 * Apache Tomcat 8.5.61
 
 ## Screenshots
-* Project Structure /home/hardeep/IdeaProjects/quotesRestAPI/screenshots/Project Structure.png
+* Project Structure: ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/Project%20Structure.png)
+* POM: ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/pom.gif)
 *
 ## Setup
