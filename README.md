@@ -25,5 +25,11 @@ Project is created with:
 ## Screenshots
 * Project Structure: ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/Project%20Structure.png)
 * POM: ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/pom.gif)
-*
+* web.xml: ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/web-xml.gif)
+* index.html ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/index-html.gif)
+* quote.js ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/quote-js.gif)
+* Quote.java ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/Quote.gif)
+* QuoteApp.java ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/QuoteApp.gif)
+* QuoteRestServices.java ![alt-text](https://github.com/hardeep85singh/quotes/blob/main/screenshots/QuoteRestServices.gif)
+
 ## Setup
