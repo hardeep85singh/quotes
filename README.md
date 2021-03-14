@@ -12,8 +12,8 @@ This project shows random quote and list of quotes on the browser. JQuery is use
 
 The basic step wise information is mentioned below.
 * We get the random quote by calling the rest end points of public API using the GET call and is shown at the screen.
-* The quote is stored in memory location as a hashmap by using the POST call.
-* The list of quotes are shown by calling the rest end points of the application using the GET call.
+* The quote is posted using the POST call which stored in memory location as a hashmap.
+* The list of quotes is shown by calling the rest end point of the application using the GET call.
 
 ## Tehnologies
 Project is created with:
